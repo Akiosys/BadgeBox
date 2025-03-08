@@ -56,7 +56,15 @@ public class ModItems {
                     "steel",
                     "thunder",
                     "wave",
-                    "wyvern"
+                    "wyvern",
+                    "bug",
+                    "dark",
+                    "fire",
+                    "flying",
+                    "normal",
+                    "psychic",
+                    "rock",
+                    "fighting"
             ).forEach(name -> createBadge(name + "_badge"));
 
     }
