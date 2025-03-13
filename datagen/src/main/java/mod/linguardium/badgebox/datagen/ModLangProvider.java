@@ -58,6 +58,14 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(getBadge("thunder"), "Surge Badge");
         translationBuilder.add(getBadge("wave"), "Torrent Badge");
         translationBuilder.add(getBadge("wyvern"), "Wyvern Badge");
+        translationBuilder.add(getBadge("bug"), "Beetle Badge");
+        translationBuilder.add(getBadge("dark"), "Sinister Badge");
+        translationBuilder.add(getBadge("fire"), "Ember Badge");
+        translationBuilder.add(getBadge("flying"), "Zephyr Badge");
+        translationBuilder.add(getBadge("normal"), "Balance Badge");
+        translationBuilder.add(getBadge("psychic"), "Astral Badge");
+        translationBuilder.add(getBadge("rock"), "Monolith Badge");
+        translationBuilder.add(getBadge("fighting"), "Brawl Badge");
 
     }
 
