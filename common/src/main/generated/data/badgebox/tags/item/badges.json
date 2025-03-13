@@ -9,6 +9,14 @@
     "badgebox:steel_badge",
     "badgebox:thunder_badge",
     "badgebox:wave_badge",
-    "badgebox:wyvern_badge"
+    "badgebox:wyvern_badge",
+    "badgebox:bug_badge",
+    "badgebox:dark_badge",
+    "badgebox:fire_badge",
+    "badgebox:flying_badge",
+    "badgebox:normal_badge",
+    "badgebox:psychic_badge",
+    "badgebox:rock_badge",
+    "badgebox:fighting_badge"
   ]
 }
