@@ -5,6 +5,7 @@ import dev.architectury.registry.registries.RegistrySupplier;
 import mod.linguardium.badgebox.common.Util;
 import mod.linguardium.badgebox.common.item.BadgeBoxItem;
 import mod.linguardium.badgebox.common.item.BadgeItem;
+import mod.linguardium.badgebox.common.item.RibbonItem;
 import mod.linguardium.badgebox.common.item.components.BadgeInventoryComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -66,6 +67,9 @@ public class ModItems {
                     "rock",
                     "fighting"
             ).forEach(name -> createBadge(name + "_badge"));
+            List.of(
+                    "master"
+            ).forEach(name -> createRibbon(name + "_ribbon"));
 
     }
 
@@ -77,5 +81,8 @@ public class ModItems {
     }
     private static RegistrySupplier<Item> createBadge(String name) {
         return register(name, settings->new BadgeItem(settings.rarity(Rarity.EPIC).maxCount(1)));
+    }
+    private static RegistrySupplier<Item> createRibbon(String name) {
+        return register(name, settings->new RibbonItem(settings.rarity(Rarity.EPIC).maxCount(1)));
     }
 }
